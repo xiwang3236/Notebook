@@ -54,7 +54,7 @@
 
 - **Basic Workflow**
   - Diagram of Workflow
-  - ![Git Basic Workflow](/fig/git_basic_workflow.png)
+  - ![Git Basic Workflow](fig\git_basic_workflow.png)
 - **Other Operations**
 
 ## Git Branches
