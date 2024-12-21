@@ -17,7 +17,7 @@ Welcome to my Computer Knowledge Tracker repository! This space is dedicated to 
 3. Clone the repo and contribute by organizing or adding new content.
 
 ## Qick Link
-1.  [Git Introduction](/Git_Introduction)
+1.  [Git Introduction](Git_Introduction.md)
 
 ---
 
