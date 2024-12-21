@@ -66,3 +66,36 @@
   - Switch to the New Branch: git checkout -b [branch]
 - **Merge Branches**
   - git merge [branch]
+
+## Useful command
+
+### LOCAL COMMANDS
+```
+git init                     # Initialize a new Git repository
+git status                   # Check the status of the working directory
+git add <file_name>          # Stage changes to a file
+git add .                    # Stage all changes in the current directory
+git commit -m "message"      # Commit staged changes with a message
+git log                      # View commit history
+git diff                     # Show differences between working directory and staging area
+```
+
+### REMOTE COMMANDS
+```
+git remote add origin <url>  # Link a local repository to a remote
+git remote -v                # List all remotes
+git push origin <branch>     # Push changes to a remote branch
+git pull origin <branch>     # Pull changes from a remote branch
+git clone <url>              # Clone a repository to your local machine
+```
+
+### BRANCH COMMANDS
+```
+git branch                   # List all local branches
+git branch <branch_name>     # Create a new branch
+git checkout <branch_name>   # Switch to a branch
+git checkout -b <branch_name> # Create and switch to a new branch
+git merge <branch_name>      # Merge a branch into the current branch
+git branch -d <branch_name>  # Delete a local branch
+git push origin --delete <branch> # Delete a branch in the remote repository
+```
